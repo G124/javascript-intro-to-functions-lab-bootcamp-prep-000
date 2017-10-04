@@ -16,6 +16,12 @@ function logShout(string) {
    console.log (string.toLowerCase())
  }
 
+ var lowercase = 'hello!'
+  
+ lowercase.toLowerCase() === lowercase
+
  function sayHiToGrandma(string){
- return string.toLowerCase()
+ if (string === string.toLowerCase())
+  return "I can't hear you";
+ 
 }
