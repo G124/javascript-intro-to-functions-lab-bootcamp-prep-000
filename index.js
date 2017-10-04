@@ -17,3 +17,4 @@ function logShout(string) {
  }
 
  function sayHiToGrandma(string)
+ return "I cant hear you"
